@@ -5,7 +5,7 @@ import appDownloadImage from "../assets/appDownload.png"
 const HomePage = () => {
     return (
         <div className="flex flex-col gap-12">
-            <Card className="py-8 flex flex-col gap-5 text-center -mt-10">
+            <Card className="py-8 flex flex-col gap-5 text-center -mt-20">
                 <h2>Order delivery or pickup from restaurants near you</h2>
             </Card>
             <div className="grid md:grid-cols-2 gap-5">
