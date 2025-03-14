@@ -1,0 +1,11 @@
+.hero-image {
+    background: bottom / cover no-repeat url(./assets/pexels-polina-tankilevitch-4109052.jpg);
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 0%)
+}
+
+.mask {
+    background-color: yellow;
+    mask-image: radial-gradient(circle at center, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 0%);
+    object-position: bottom;
+    object-fit: cover;
+}
